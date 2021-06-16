@@ -7,6 +7,7 @@ body {
   background-color: #ffc300;
   text-align: center;
   padding: 2rem;
+  min-width:320px;
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
 }
 
 #random-key {
-  font-size: 9rem;
+  font-size: 7rem;
   clear: both;
 }
 
@@ -30,4 +31,8 @@ body, html {
   height: 100%;
   overflow:hidden;
   margin:0;
+}
+.tiny {
+  font-size: 5rem;
+  vertical-align: super;
 }

@@ -1,11 +1,11 @@
 function keyPick() {
-  const keyList = ["A", "A\u266F/B\u266D", "B", "C", "C\u266F/D\u266D", "D", "D\u266F/E\u266D", "E", "F", "F\u266F/G\u266D", "G", "G\u266F/A\u266D"];
+  const keyList = ["A", "A<span class=\"tiny\">\u266F</span>/B<span class=\"tiny\">\u266D</span>", "B", "C", "C<span class=\"tiny\">\u266F</span>/D<span class=\"tiny\">\u266D</span>", "D", "D<span class=\"tiny\">\u266F</span>/E<span class=\"tiny\">\u266D</span>", "E", "F", "F<span class=\"tiny\">\u266F</span>/G<span class=\"tiny\">\u266D</span>", "G", "G<span class=\"tiny\">\u266F</span>/A<span class=\"tiny\">\u266D</span>"];
   return keyList[Math.floor((Math.random() * 12))];
 }
 
 $(document).ready(function () {
-  $("#random-key").text(keyPick());
+  $("#random-key").html(keyPick());
   $("body").click(function () {
-    $("#random-key").text(keyPick());
+    $("#random-key").html(keyPick());
   });
 });
