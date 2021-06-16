@@ -1,23 +1,33 @@
 body {
   background-color: #001D3D;
-  color:#000814; 
+  color: #000814;
 }
+
 .key-container {
   background-color: #ffc300;
   text-align: center;
-  padding:2rem;
+  padding: 2rem;
+}
 
-}
 .container {
-  align-items:center;
-  justify-content:center;
-  display:flex;
-  padding-top:2rem;
+  align-items:flex-start;
+  justify-content: center;
+  display: flex;
+  padding-top: 2rem;
+  height:100%;overflow:hidden;
 }
+
 #random-key {
-  font-size:9rem;
-  clear:both;
+  font-size: 9rem;
+  clear: both;
 }
+
 #try-again {
-  font-size:.75rem;
+  font-size: .75rem;
+}
+
+body, html {
+  height: 100%;
+  overflow:hidden;
+  margin:0;
 }
