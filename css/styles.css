@@ -1,0 +1,23 @@
+body {
+  background-color: #001D3D;
+  color:#000814; 
+}
+.key-container {
+  background-color: #ffc300;
+  text-align: center;
+  padding:2rem;
+
+}
+.container {
+  align-items:center;
+  justify-content:center;
+  display:flex;
+  padding-top:2rem;
+}
+#random-key {
+  font-size:9rem;
+  clear:both;
+}
+#try-again {
+  font-size:.75rem;
+}
